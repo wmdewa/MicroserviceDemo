@@ -7,8 +7,7 @@ trigger:
     include:
       - CustomerApi/*
  
-pool:
-  vmImage: 'windows-latest'
+pool: vmssubuntu2204
  
 variables:
   buildConfiguration: 'Release'
